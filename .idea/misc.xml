@@ -5,7 +5,11 @@
       <map>
         <entry key="..\:/Android/MyApplication2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.371" />
         <entry key="..\:/Android/MyApplication2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.371" />
+        <entry key="..\:/Android/MyApplication2/app/src/main/res/layout/activity_edit_book.xml" value="0.33" />
         <entry key="..\:/Android/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.35280797101449274" />
+        <entry key="..\:/Android/MyApplication2/app/src/main/res/layout/fragment_baidu_map.xml" value="0.2375" />
+        <entry key="..\:/Android/MyApplication2/app/src/main/res/layout/fragment_book_item.xml" value="0.2375" />
+        <entry key="..\:/Android/MyApplication2/app/src/main/res/layout/fragment_newsragment.xml" value="0.23385416666666667" />
         <entry key="..\:/Android/MyApplication2/app/src/main/res/layout/item_main.xml" value="0.35280797101449274" />
       </map>
     </option>
