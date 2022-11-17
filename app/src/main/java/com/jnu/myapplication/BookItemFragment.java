@@ -117,7 +117,7 @@ public class BookItemFragment extends Fragment {
         DataSaver dataSaver = new DataSaver();
         bookItems = dataSaver.Load(this.getContext());
 
-//        bookItems.add(new BookItem("信息安全数学基础（第2版）", R.drawable.book_1));
+        bookItems.add(new BookItem("信息安全数学基础（第2版）", R.drawable.book_1));
 //        bookItems.add(new BookItem("软件项目管理案例教程（第4版）", R.drawable.book_2));
 //        bookItems.add(new BookItem("书", R.drawable.book_no_name));
 
@@ -189,8 +189,8 @@ public class BookItemFragment extends Fragment {
             public ViewHolder(View view) {
                 super(view);
                 //找到view
-                imageView=view.findViewById(R.id.image_view_book_cover);
-                textView = view.findViewById(R.id.text_view_book_title);
+                imageView=view.findViewById(R.id.imageView_item_image);
+                textView = view.findViewById(R.id.textView_item_caption);
 
                 //holder的监听事件
                 view.setOnCreateContextMenuListener(this);
