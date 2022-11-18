@@ -116,8 +116,8 @@ public class BookItemFragment extends Fragment {
 
         DataSaver dataSaver = new DataSaver();
         bookItems = dataSaver.Load(this.getContext());
-        if (bookItems.size() == 0)
-            bookItems.add(new BookItem("信息安全数学基础（第2版）", R.drawable.book_1));
+    if(bookItems.size()==0)
+        bookItems.add(new BookItem("信息安全数学基础（第2版）", R.drawable.book_1));
 //        bookItems.add(new BookItem("软件项目管理案例教程（第4版）", R.drawable.book_2));
 //        bookItems.add(new BookItem("书", R.drawable.book_no_name));
 
