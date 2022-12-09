@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".BookItemFragment">
 
+
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycle_view_books"
         android:layout_width="409dp"

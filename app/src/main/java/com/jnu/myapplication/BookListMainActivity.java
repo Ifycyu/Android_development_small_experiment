@@ -31,6 +31,8 @@ public class BookListMainActivity extends AppCompatActivity {
                     return WebViewFragment.newInstance();
                 case 2:
                     return MapViewFragment.newInstance();
+                case 3:
+                    return GameFragment.newInstance();
 
 
             }
@@ -40,7 +42,7 @@ public class BookListMainActivity extends AppCompatActivity {
 
         @Override
         public int getItemCount() {
-            return 3;
+            return 4;
         }
     }
     @Override
@@ -64,6 +66,9 @@ public class BookListMainActivity extends AppCompatActivity {
                         break;
                     case 2:
                         tab.setText("卖家");
+                        break;
+                    case 3:
+                        tab.setText("游戏");
                         break;
 
                 }
